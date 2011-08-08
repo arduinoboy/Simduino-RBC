@@ -1,0 +1,23 @@
+Simduino RBC
+-------------------
+The object of this project is to create
+a Arduino compatible robot controller using a minimum 
+of parts.
+-------------------
+Bootloader
+-------------------
+The Simduino RBC uses the USBaspLoader
+http://www.obdev.at/products/vusb/usbasploader.html
+which uses a software only USB driver to connect to the 
+computer without a FTDI chip.
+note: it does not create a COM port,
+instead it enumerates as a HID device
+-------------------
+Board
+-------------------
+The board is based off the metaboard
+http://metalab.at/wiki/Metaboard
+from MetaLab
+http://metalab.at
+A motor driver, sensor and servo connectors are also added 
+-------------------
