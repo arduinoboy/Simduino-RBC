@@ -1,25 +1,25 @@
 EAGLE AutoRouter Statistics:
 
-Job           : /Users/BJCandari/Documents/circuit/simduino.brd
+Job           : /Users/BJCandari/Dropbox/Simduino-RBC/Eagle files/simduino.brd
 
-Start at      : 11:59:56 (7/20/11)
-End at        : 12:00:16 (7/20/11)
-Elapsed time  : 00:00:20
+Start at      : 10:27:16 (10/6/13)
+End at        : 10:27:17 (10/6/13)
+Elapsed time  : 00:00:01
 
-Signals       :   194   RoutingGrid: 25 mil  Layers: 1
-Connections   :    69   predefined:  19 ( 160 Vias )
+Signals       :   173   RoutingGrid: 25 mil  Layers: 1
+Connections   :    37   predefined:  30 ( 162 Vias )
 
-Router memory :   24320
+Router memory :   24130
 
 Passname          :     Route Optimize1 Optimize2 Optimize3 Optimize4
 
-Time per pass     :  00:00:18  00:00:01  00:00:00  00:00:00  00:00:01
-Number of Ripups  :       520         0         0         0         0
-max. Level        :         5         0         0         0         0
-max. Total        :        12         0         0         0         0
+Time per pass     :  00:00:01  00:00:00  00:00:00  00:00:00  00:00:00
+Number of Ripups  :         0         0         0         0         0
+max. Level        :         1         0         0         0         0
+max. Total        :         0         0         0         0         0
 
-Routed            :        43        45        45        45        45
+Routed            :         0         4         4         4         4
 Vias              :         0         0         0         0         0
-Resolution        :    89.9 %    92.8 %    92.8 %    92.8 %    92.8 %
+Resolution        :    81.1 %    91.9 %    91.9 %    91.9 %    91.9 %
 
-Final             : 75.8% finished. Polygons may have fallen apart.
+Final             : 93.8% finished. Polygons may have fallen apart.
