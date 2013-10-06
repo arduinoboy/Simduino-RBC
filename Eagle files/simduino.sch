@@ -12780,7 +12780,6 @@ Source: 008-0260-0_E.pdf</description>
 <part name="C3" library="rcl" deviceset="C-EU" device="025-024X044" value="22p"/>
 <part name="C4" library="rcl" deviceset="C-EU" device="025-024X044" value="22p"/>
 <part name="GND8" library="supply1" deviceset="GND" device=""/>
-<part name="C5" library="rcl" deviceset="C-EU" device="025_050-025X075" value="100n"/>
 <part name="GND7" library="supply1" deviceset="GND" device=""/>
 <part name="GND9" library="supply1" deviceset="GND" device=""/>
 <part name="GND12" library="supply1" deviceset="GND" device=""/>
@@ -12838,10 +12837,6 @@ Source: 008-0260-0_E.pdf</description>
 <attribute name="VALUE" x="36.322" y="70.231" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="GND8" gate="1" x="27.94" y="38.1"/>
-<instance part="C5" gate="G$1" x="10.16" y="22.86" smashed="yes">
-<attribute name="NAME" x="12.827" y="23.114" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="9.271" y="15.494" size="1.778" layer="96" rot="R90"/>
-</instance>
 <instance part="GND7" gate="1" x="2.54" y="12.7"/>
 <instance part="GND9" gate="1" x="104.14" y="66.04" rot="R270"/>
 <instance part="GND12" gate="1" x="15.24" y="-5.08"/>
@@ -12892,8 +12887,6 @@ Source: 008-0260-0_E.pdf</description>
 <wire x1="2.54" y1="15.24" x2="2.54" y2="17.78" width="0.1524" layer="91"/>
 <pinref part="GND7" gate="1" pin="GND"/>
 <pinref part="C2" gate="G$1" pin="-"/>
-<pinref part="C5" gate="G$1" pin="2"/>
-<wire x1="10.16" y1="17.78" x2="2.54" y2="17.78" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <wire x1="106.68" y1="66.04" x2="111.76" y2="66.04" width="0.1524" layer="91"/>
@@ -12947,8 +12940,7 @@ Source: 008-0260-0_E.pdf</description>
 <wire x1="40.64" y1="73.66" x2="17.78" y2="73.66" width="0.1524" layer="91"/>
 <wire x1="17.78" y1="73.66" x2="17.78" y2="48.26" width="0.1524" layer="91"/>
 <wire x1="17.78" y1="27.94" x2="17.78" y2="48.26" width="0.1524" layer="91"/>
-<wire x1="2.54" y1="27.94" x2="10.16" y2="27.94" width="0.1524" layer="91"/>
-<wire x1="10.16" y1="27.94" x2="17.78" y2="27.94" width="0.1524" layer="91"/>
+<wire x1="2.54" y1="27.94" x2="17.78" y2="27.94" width="0.1524" layer="91"/>
 <wire x1="2.54" y1="25.4" x2="2.54" y2="27.94" width="0.1524" layer="91"/>
 <wire x1="-2.54" y1="27.94" x2="2.54" y2="27.94" width="0.1524" layer="91"/>
 <junction x="17.78" y="48.26"/>
@@ -12956,8 +12948,6 @@ Source: 008-0260-0_E.pdf</description>
 <pinref part="IC1" gate="G$1" pin="VCC"/>
 <pinref part="IC1" gate="G$1" pin="AVCC"/>
 <pinref part="C2" gate="G$1" pin="+"/>
-<pinref part="C5" gate="G$1" pin="1"/>
-<wire x1="10.16" y1="25.4" x2="10.16" y2="27.94" width="0.1524" layer="91"/>
 <pinref part="R4" gate="G$1" pin="1"/>
 <wire x1="17.78" y1="22.86" x2="17.78" y2="27.94" width="0.1524" layer="91"/>
 </segment>
